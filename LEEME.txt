@@ -1,0 +1,47 @@
+ZOMBIE MUSIC LIBRARY - versión 2.0 para Android (by P.V.M.)
+============================================================
+
+IMPORTANTE ANTES DE INSTALAR (solo esta vez)
+--------------------------------------------
+Esta versión usa una clave de firma fija. Por eso, ANTES de instalarla tenés que
+DESINSTALAR la versión anterior del teléfono (mantené apretado el ícono > Desinstalar).
+Se pierden las carpetas elegidas y el catálogo importado; hay que volver a escanear.
+Desde la próxima versión se instala encima sin perder nada.
+
+CÓMO COMPILARLA (igual que la vez anterior, con GitHub)
+-------------------------------------------------------
+1. Entrá a tu repositorio en github.com.
+2. "Add file" > "Upload files".
+3. Descomprimí este zip, abrí la carpeta ZombieMusicLibrary, apretá Ctrl+A y arrastrá
+   todo lo que hay ADENTRO hasta GitHub (los archivos con el mismo nombre se reemplazan).
+   Tiene que subir también el archivo app/zombie.keystore.
+4. "Commit changes". La compilación arranca sola en la pestaña "Actions" (5 a 10 minutos).
+5. Con el tilde verde: entrá a esa ejecución > "Artifacts" > ZombieMusicLibrary-APK.
+6. Descomprimí el .zip, pasá el .apk al teléfono, desinstalá la versión vieja e instalá la nueva.
+Si falla: copiame el texto del error del paso que tiene la cruz roja.
+
+PRIMER USO
+----------
+1. Al abrir la app pide los permisos (música y notificaciones) y después "sin restricciones
+   de batería". Aceptá los tres.
+2. Tocá "Escanear", elegí la carpeta con tu música (incluye las subcarpetas).
+   La biblioteca solo cambia cuando vos escaneás o tocás "Nueva biblioteca".
+3. Tocá una banda, un año o un disco para abrirlos; tocá un tema para escucharlo.
+
+LA PANTALLA
+-----------
+- Nueva biblioteca / Escanear: vaciar la lista y empezar de cero / agregar una carpeta.
+- Catálogo / Cargar biblioteca: ver un catálogo (por ejemplo el .zml de la PC) /
+  elegir el archivo .zml. Si los temas del catálogo están en el teléfono, también se reproducen.
+  Tocá "Catálogo" otra vez para volver a la biblioteca.
+- Engranaje: permisos, exportar y consejos de batería. Tocalo otra vez para volver.
+- Artista / Año / Disco / Tema: cambia cómo se agrupa la lista (tocar de nuevo invierte el orden).
+- Mantené apretado un tema para ver sus datos y su ubicación.
+
+EL WIDGET
+---------
+Mantené apretado un espacio vacío de la pantalla de inicio > Widgets > Zombie Music Library.
+Para agrandarlo, mantenelo apretado y arrastrá los bordes (puede llegar a pantalla completa).
+Muestra la tapa del disco (o la splash si el MP3 no tiene), "Banda - año - disco" arriba, el tema
+abajo y los botones. Dos toques seguidos sobre la tapa abren la app en el tema que suena.
+Con nada sonando, el play empieza el último tema que escuchaste desde el comienzo.
